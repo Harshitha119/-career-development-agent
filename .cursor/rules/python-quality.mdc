@@ -1,0 +1,14 @@
+---
+description: Maintain readable and reliable Python code.
+globs: ["*.py"]
+alwaysApply: true
+---
+
+- Use Python type hints.
+- Add clear docstrings.
+- Use pathlib for file paths.
+- Use meaningful constants.
+- Raise clear and useful exceptions.
+- Keep behavior deterministic.
+- Write readable, beginner-friendly Python.
+- Avoid unnecessary duplication.

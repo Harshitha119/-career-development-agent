@@ -1,0 +1,26 @@
+---
+description: Architecture boundaries for the Career Development Agent
+alwaysApply: true
+---
+
+# Career Development Agent architecture
+
+Keep each responsibility in its own module. Python 3.11 or newer.
+
+- `app.py` is the Streamlit interface. It must not score skills, rank careers, or build roadmaps.
+- `data_loader.py` only reads local JSON. It must not score or recommend.
+- `skill_engine.py` owns skill comparison.
+- `recommendation_engine.py` owns career recommendations.
+- `roadmap_engine.py` owns learning roadmaps. Do not rank careers there.
+- `career_agent.py` connects those pieces. It must not draw the interface.
+- `models.py` holds Pydantic data shapes.
+
+Do not call external APIs or read API keys. Use `students.json` and `career_roles.json`.
+
+```python
+# Bad: ranking careers inside the interface
+best = max(roles, key=score_role)
+
+# Good: the interface asks the agent, which delegates to the recommendation engine
+recommendations = agent.recommendations(student_id)
+```

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "ai-platform-engineer",
+    "title": "AI Platform Engineer",
+    "description": "Builds and maintains infrastructure for AI and machine learning applications.",
+    "interests": ["AI", "Cloud", "Machine Learning"],
+    "industries": ["Technology", "Healthcare", "Finance"],
+    "required_skills": [
+      {"name": "Python", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "AI/LLM", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "Cloud", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Docker", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "Kubernetes", "importance_weight": 15, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["AWS Certified Machine Learning Engineer"],
+    "hands_on_projects": ["Deploy an LLM application", "Build an AI model serving platform"],
+    "six_month_learning_sequence": ["Python and AI fundamentals", "Machine learning basics", "LLM application development", "Docker and containers", "Cloud deployment and Kubernetes", "Build and deploy an AI platform"]
+  },
+  {
+    "id": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "description": "Designs, deploys and maintains cloud infrastructure and services.",
+    "interests": ["Cloud", "Infrastructure", "Networking"],
+    "industries": ["Technology", "Finance", "Healthcare"],
+    "required_skills": [
+      {"name": "Cloud", "importance_weight": 30, "target_beginner_proficiency": 6},
+      {"name": "Linux", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Networking", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "Python", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "Docker", "importance_weight": 20, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["AWS Certified Solutions Architect Associate"],
+    "hands_on_projects": ["Deploy a cloud-hosted website", "Build a cloud storage system"],
+    "six_month_learning_sequence": ["Cloud fundamentals", "Linux and networking", "AWS or Azure basics", "Cloud storage and databases", "Docker and deployment", "Build a cloud infrastructure project"]
+  },
+  {
+    "id": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "Automates software development, testing and deployment workflows.",
+    "interests": ["Cloud", "Automation", "Infrastructure"],
+    "industries": ["Technology", "Finance", "E-commerce"],
+    "required_skills": [
+      {"name": "Linux", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Docker", "importance_weight": 25, "target_beginner_proficiency": 5},
+      {"name": "Kubernetes", "importance_weight": 20, "target_beginner_proficiency": 4},
+      {"name": "Cloud", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Python", "importance_weight": 15, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["AWS Certified DevOps Engineer Professional"],
+    "hands_on_projects": ["Create a CI/CD pipeline", "Containerize and deploy a web application"],
+    "six_month_learning_sequence": ["Linux and Git", "Python scripting", "Docker fundamentals", "CI/CD pipelines", "Kubernetes and cloud", "Build an automated deployment pipeline"]
+  },
+  {
+    "id": "site-reliability-engineer",
+    "title": "Site Reliability Engineer",
+    "description": "Maintains reliable, scalable and highly available software systems.",
+    "interests": ["Cloud", "Automation", "System Administration"],
+    "industries": ["Technology", "Finance", "Telecommunications"],
+    "required_skills": [
+      {"name": "Linux", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Python", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Cloud", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Kubernetes", "importance_weight": 20, "target_beginner_proficiency": 4},
+      {"name": "Networking", "importance_weight": 20, "target_beginner_proficiency": 5}
+    ],
+    "optional_certifications": ["Google Professional Cloud DevOps Engineer"],
+    "hands_on_projects": ["Build a system monitoring dashboard", "Simulate application failure and recovery"],
+    "six_month_learning_sequence": ["Linux administration", "Python automation", "Networking fundamentals", "Cloud infrastructure", "Monitoring and Kubernetes", "Build a reliability monitoring system"]
+  },
+  {
+    "id": "data-engineer",
+    "title": "Data Engineer",
+    "description": "Builds data pipelines and infrastructure for collecting and processing large datasets.",
+    "interests": ["Data", "Programming", "Cloud"],
+    "industries": ["Finance", "Healthcare", "Technology"],
+    "required_skills": [
+      {"name": "Python", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "SQL", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "Cloud", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "Data Engineering", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Linux", "importance_weight": 15, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["Google Professional Data Engineer"],
+    "hands_on_projects": ["Build an ETL pipeline", "Create a data warehouse"],
+    "six_month_learning_sequence": ["Python programming", "SQL and databases", "Data processing", "ETL pipelines", "Cloud data services", "Build an end-to-end data pipeline"]
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "description": "Analyzes datasets to discover trends and communicate useful business insights.",
+    "interests": ["Data", "Statistics", "Business"],
+    "industries": ["Finance", "Healthcare", "Retail"],
+    "required_skills": [
+      {"name": "Python", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "SQL", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "Statistics", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Data Visualization", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Communication", "importance_weight": 15, "target_beginner_proficiency": 5}
+    ],
+    "optional_certifications": ["Microsoft Power BI Data Analyst Associate"],
+    "hands_on_projects": ["Analyze a sales dataset", "Create an interactive analytics dashboard"],
+    "six_month_learning_sequence": ["Excel and data fundamentals", "SQL", "Statistics", "Python and pandas", "Data visualization", "Build an analytics portfolio project"]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "description": "Monitors systems, identifies security threats and helps protect digital infrastructure.",
+    "interests": ["Cybersecurity", "Networking", "Linux"],
+    "industries": ["Finance", "Government", "Technology"],
+    "required_skills": [
+      {"name": "Networking", "importance_weight": 25, "target_beginner_proficiency": 5},
+      {"name": "Linux", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Cybersecurity", "importance_weight": 25, "target_beginner_proficiency": 5},
+      {"name": "Python", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "Cloud", "importance_weight": 15, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["CompTIA Security+"],
+    "hands_on_projects": ["Build a network traffic analyzer", "Create a security log monitoring dashboard"],
+    "six_month_learning_sequence": ["Networking fundamentals", "Linux security", "Security fundamentals", "Python security scripting", "Threat monitoring", "Build a defensive security project"]
+  },
+  {
+    "id": "full-stack-developer",
+    "title": "Full-Stack Developer",
+    "description": "Develops both frontend interfaces and backend services for web applications.",
+    "interests": ["Web Development", "Programming", "Design"],
+    "industries": ["Technology", "E-commerce", "Education"],
+    "required_skills": [
+      {"name": "JavaScript", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "HTML/CSS", "importance_weight": 15, "target_beginner_proficiency": 5},
+      {"name": "Python", "importance_weight": 15, "target_beginner_proficiency": 4},
+      {"name": "SQL", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "Git", "importance_weight": 10, "target_beginner_proficiency": 4},
+      {"name": "APIs", "importance_weight": 15, "target_beginner_proficiency": 5}
+    ],
+    "optional_certifications": ["Meta Front-End Developer Professional Certificate"],
+    "hands_on_projects": ["Build a full-stack student management application", "Create an e-commerce website"],
+    "six_month_learning_sequence": ["HTML and CSS", "JavaScript", "Frontend framework", "Backend and APIs", "Databases and authentication", "Deploy a full-stack application"]
+  },
+  {
+    "id": "backend-developer",
+    "title": "Backend Developer",
+    "description": "Develops server-side applications, APIs, databases and business logic.",
+    "interests": ["Programming", "Databases", "System Design"],
+    "industries": ["Technology", "Finance", "E-commerce"],
+    "required_skills": [
+      {"name": "Python", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "SQL", "importance_weight": 20, "target_beginner_proficiency": 5},
+      {"name": "APIs", "importance_weight": 25, "target_beginner_proficiency": 5},
+      {"name": "Git", "importance_weight": 10, "target_beginner_proficiency": 4},
+      {"name": "Linux", "importance_weight": 10, "target_beginner_proficiency": 4},
+      {"name": "Docker", "importance_weight": 10, "target_beginner_proficiency": 3}
+    ],
+    "optional_certifications": ["Oracle Certified Professional Java SE Developer"],
+    "hands_on_projects": ["Build a REST API", "Create a database-backed task management system"],
+    "six_month_learning_sequence": ["Python programming", "SQL and databases", "Backend frameworks", "REST API development", "Testing and Docker", "Build and deploy a backend application"]
+  },
+  {
+    "id": "machine-learning-engineer",
+    "title": "Machine Learning Engineer",
+    "description": "Develops, trains and deploys machine learning models for real-world applications.",
+    "interests": ["AI", "Machine Learning", "Mathematics"],
+    "industries": ["Technology", "Healthcare", "Finance"],
+    "required_skills": [
+      {"name": "Python", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "Machine Learning", "importance_weight": 25, "target_beginner_proficiency": 6},
+      {"name": "Statistics", "importance_weight": 15, "target_beginner_proficiency": 5},
+      {"name": "AI/LLM", "importance_weight": 15, "target_beginner_proficiency": 5},
+      {"name": "SQL", "importance_weight": 10, "target_beginner_proficiency": 4},
+      {"name": "Cloud", "importance_weight": 10, "target_beginner_proficiency": 4}
+    ],
+    "optional_certifications": ["AWS Certified Machine Learning Engineer"],
+    "hands_on_projects": ["Build a predictive ML model", "Deploy a machine learning prediction API"],
+    "six_month_learning_sequence": ["Python and mathematics", "Statistics and data processing", "Machine learning algorithms", "Model evaluation", "Model deployment", "Build an end-to-end ML project"]
+  }
+]

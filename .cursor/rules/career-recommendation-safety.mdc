@@ -1,0 +1,14 @@
+---
+description: Ensure fair and evidence-based career recommendations.
+globs: ["*.py", "*.json", "*.md"]
+alwaysApply: true
+---
+
+- Never guarantee employment or hiring outcomes.
+- Never fabricate student evidence.
+- Never infer protected characteristics.
+- Never negatively label students.
+- Never make unsupported real-time job market claims.
+- Clearly distinguish supplied evidence from analysis.
+- Explain recommendations transparently.
+- Treat scores as learning recommendations, not hiring probabilities.

@@ -1,0 +1,13 @@
+---
+description: Keep the application reliable for offline demonstrations.
+globs: ["*.py", "*.json", "*.md"]
+alwaysApply: true
+---
+
+- Do not use external APIs.
+- Do not require API keys.
+- Do not introduce network dependencies.
+- Ensure the local sample profile works.
+- Provide useful error messages.
+- Keep results deterministic.
+- Ensure the application can run using local project data.

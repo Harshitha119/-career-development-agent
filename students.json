@@ -1,0 +1,18 @@
+[
+  {
+    "id": "student-1",
+    "name": "Harsha",
+    "degree": "B.Tech Computer Science",
+    "skills": [
+      {"name": "Python", "level": 7},
+      {"name": "Cloud", "level": 5},
+      {"name": "Kubernetes", "level": 3},
+      {"name": "AI/LLM", "level": 4}
+    ],
+    "interests": ["Cloud", "AI"],
+    "existing_projects": ["Chatbot"],
+    "certifications": [],
+    "weekly_learning_hours": 8,
+    "learning_timeframe_months": 6
+  }
+]

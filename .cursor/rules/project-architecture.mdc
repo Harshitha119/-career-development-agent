@@ -1,0 +1,14 @@
+---
+description: Maintain separation of application responsibilities.
+globs: ["*.py"]
+alwaysApply: true
+---
+
+- Keep UI code in app.py.
+- Keep workflow coordination in career_agent.py.
+- Keep data loading in data_loader.py.
+- Keep skill normalization in skill_engine.py.
+- Keep recommendation scoring in recommendation_engine.py.
+- Keep roadmap generation in roadmap_engine.py.
+- Keep data validation in models.py.
+- Do not mix UI code with scoring or roadmap logic.
